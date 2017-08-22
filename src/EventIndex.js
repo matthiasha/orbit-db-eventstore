@@ -10,7 +10,7 @@ class EventIndex {
   }
 
   updateIndex(oplog) {
-    this._index = oplog.items
+    this._index = oplog.values
   }
 }
 
